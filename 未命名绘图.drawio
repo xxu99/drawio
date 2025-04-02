@@ -474,33 +474,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="09PoAIpEVE1qzpc_rbzL-47" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#e1d5e7, #512d2b);strokeColor=light-dark(#000000,#D7817E);" vertex="1" parent="1">
-          <mxGeometry x="20" y="1270" width="119" height="119" as="geometry" />
+          <mxGeometry x="20" y="1193" width="119" height="119" as="geometry" />
         </mxCell>
         <mxCell id="09PoAIpEVE1qzpc_rbzL-48" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="39.5" y="1288.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="39.5" y="1211.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="09PoAIpEVE1qzpc_rbzL-49" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="09PoAIpEVE1qzpc_rbzL-48" target="09PoAIpEVE1qzpc_rbzL-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="174.5" y="1430" as="sourcePoint" />
-            <mxPoint x="224.5" y="1380" as="targetPoint" />
+            <mxPoint x="174.5" y="1353" as="sourcePoint" />
+            <mxPoint x="224.5" y="1303" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="09PoAIpEVE1qzpc_rbzL-50" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="09PoAIpEVE1qzpc_rbzL-48" target="09PoAIpEVE1qzpc_rbzL-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="118.5" y="1354" as="sourcePoint" />
-            <mxPoint x="131.5" y="1340" as="targetPoint" />
+            <mxPoint x="118.5" y="1277" as="sourcePoint" />
+            <mxPoint x="131.5" y="1263" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="09PoAIpEVE1qzpc_rbzL-51" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="09PoAIpEVE1qzpc_rbzL-48" target="09PoAIpEVE1qzpc_rbzL-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="117.5" y="1367" as="sourcePoint" />
-            <mxPoint x="131.5" y="1382" as="targetPoint" />
+            <mxPoint x="117.5" y="1290" as="sourcePoint" />
+            <mxPoint x="131.5" y="1305" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="09PoAIpEVE1qzpc_rbzL-52" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="09PoAIpEVE1qzpc_rbzL-48" target="09PoAIpEVE1qzpc_rbzL-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="37.5" y="1366" as="sourcePoint" />
-            <mxPoint x="23.5" y="1381" as="targetPoint" />
+            <mxPoint x="37.5" y="1289" as="sourcePoint" />
+            <mxPoint x="23.5" y="1304" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WkOHm-g7wmDwVLHgkWzL-1" value="Cyclic Shift&#xa;\(\mathrm{Shift}(\mathbf{X},s)= \begin{cases} [\mathbf{X}_1,\mathbf{X}_2,\mathbf{X}_3,\mathbf{X}_4] &amp; s=1 \\ [\mathbf{X}_2,\mathbf{X}_3,\mathbf{X}_4,\mathbf{X}_1] &amp; s=2 \\ [\mathbf{X}_3,\mathbf{X}_4,\mathbf{X}_1,\mathbf{X}_2] &amp; s=3 \\ [\mathbf{X}_4,\mathbf{X}_1,\mathbf{X}_2,\mathbf{X}_3] &amp; s=4 \end{cases}\)" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Times New Roman;fontStyle=1" vertex="1" parent="1">
