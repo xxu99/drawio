@@ -564,7 +564,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D-Kyzar30vG4lo-Y-fpK-1" value="Output Feature&#xa;\(\mathbf{Y} \in \mathbb{R}^{B \times L \times C}\)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d0cee2;strokeColor=#56517e;fontFamily=Times New Roman;fontSize=13;rounded=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="D-Kyzar30vG4lo-Y-fpK-1" value="Output Feature&#xa;\(\mathbf{Y} \in \mathbb{R}^{B \times L \times C}\)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;fontSize=13;rounded=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="303.5" y="2216" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
