@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.8" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="26.2.15" pages="6">
   <diagram name="第 1 页" id="qgiPuh51KqLkgEDfryKa">
     <mxGraphModel dx="1189" dy="-384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0" adaptiveColors="auto">
       <root>
@@ -353,7 +353,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zNVB3Fx0lkZcIYdh1l0H" name="第 4 页">
-    <mxGraphModel dx="1820" dy="46" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1672" dy="-178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -468,31 +468,31 @@
             <mxPoint x="404.5" y="2091" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WkOHm-g7wmDwVLHgkWzL-1" value="Cyclic Shift&#xa;\(\mathrm{Shift}(\mathbf{X},s)= \begin{cases} [\mathbf{X}_1,\mathbf{X}_2,\mathbf{X}_3,\mathbf{X}_4] &amp; s=1 \\ [\mathbf{X}_2,\mathbf{X}_3,\mathbf{X}_4,\mathbf{X}_1] &amp; s=2 \\ [\mathbf{X}_3,\mathbf{X}_4,\mathbf{X}_1,\mathbf{X}_2] &amp; s=3 \\ [\mathbf{X}_4,\mathbf{X}_1,\mathbf{X}_2,\mathbf{X}_3] &amp; s=4 \end{cases}\)" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Times New Roman;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="WkOHm-g7wmDwVLHgkWzL-1" value="Cyclic Shift&#xa;\(\mathrm{Shift}(\mathbf{X},s)= \begin{cases} [\mathbf{X}_1,\mathbf{X}_2,\mathbf{X}_3,\mathbf{X}_4] &amp; s_t=1 \\ [\mathbf{X}_2,\mathbf{X}_3,\mathbf{X}_4,\mathbf{X}_1] &amp; s_t=2 \\ [\mathbf{X}_3,\mathbf{X}_4,\mathbf{X}_1,\mathbf{X}_2] &amp; s_t=3 \\ [\mathbf{X}_4,\mathbf{X}_1,\mathbf{X}_2,\mathbf{X}_3] &amp; s_t=4 \end{cases}\)" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Times New Roman;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="190.25" y="1571" width="424.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="kMQ2a7DeLVWWAoGRfeQ--33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeWidth=2;" parent="1" source="NhFnYJzHBD7ZRdAJJDRp-1" target="09PoAIpEVE1qzpc_rbzL-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NhFnYJzHBD7ZRdAJJDRp-1" value="New Chunk 1&#xa;\(\mathbf{X}_1&#39; =\mathrm{Shift}(X,s)\)[0]" style="whiteSpace=wrap;strokeWidth=2;fontFamily=Times New Roman;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NhFnYJzHBD7ZRdAJJDRp-1" value="New Chunk 1&#xa;\(\mathbf{X}_1&#39; =\mathrm{Shift}(X,s_t)\)[0]" style="whiteSpace=wrap;strokeWidth=2;fontFamily=Times New Roman;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="22" y="1782" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="kMQ2a7DeLVWWAoGRfeQ--34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeWidth=2;" parent="1" source="NhFnYJzHBD7ZRdAJJDRp-2" target="09PoAIpEVE1qzpc_rbzL-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NhFnYJzHBD7ZRdAJJDRp-2" value="New Chunk 2&#xa;\(\mathbf{X}_2&#39; =\mathrm{Shift}(X,s)\)[1]" style="whiteSpace=wrap;strokeWidth=2;fontFamily=Times New Roman;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NhFnYJzHBD7ZRdAJJDRp-2" value="New Chunk 2&#xa;\(\mathbf{X}_2&#39; =\mathrm{Shift}(X,s_t)\)[1]" style="whiteSpace=wrap;strokeWidth=2;fontFamily=Times New Roman;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="225" y="1782" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="kMQ2a7DeLVWWAoGRfeQ--35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeWidth=2;" parent="1" source="NhFnYJzHBD7ZRdAJJDRp-3" target="09PoAIpEVE1qzpc_rbzL-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NhFnYJzHBD7ZRdAJJDRp-3" value="New Chunk 3&#xa;\(\mathbf{X}_3&#39; =\mathrm{Shift}(X,s)\)[2]" style="whiteSpace=wrap;strokeWidth=2;fontFamily=Times New Roman;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NhFnYJzHBD7ZRdAJJDRp-3" value="New Chunk 3&#xa;\(\mathbf{X}_3&#39; =\mathrm{Shift}(X,s_t)\)[2]" style="whiteSpace=wrap;strokeWidth=2;fontFamily=Times New Roman;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="429" y="1782" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="kMQ2a7DeLVWWAoGRfeQ--36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeWidth=2;" parent="1" source="NhFnYJzHBD7ZRdAJJDRp-4" target="09PoAIpEVE1qzpc_rbzL-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NhFnYJzHBD7ZRdAJJDRp-4" value="New Chunk 4&#xa;\(\mathbf{X}_4&#39; =\mathrm{Shift}(X,s)\)[3]" style="whiteSpace=wrap;strokeWidth=2;fontFamily=Times New Roman;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NhFnYJzHBD7ZRdAJJDRp-4" value="New Chunk 4&#xa;\(\mathbf{X}_4&#39; =\mathrm{Shift}(X,s_t)\)[3]" style="whiteSpace=wrap;strokeWidth=2;fontFamily=Times New Roman;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="633.5" y="1782" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="kMQ2a7DeLVWWAoGRfeQ--19" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="09PoAIpEVE1qzpc_rbzL-7" target="WkOHm-g7wmDwVLHgkWzL-1" edge="1">
